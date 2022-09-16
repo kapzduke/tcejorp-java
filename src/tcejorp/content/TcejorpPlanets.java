@@ -10,7 +10,7 @@ import tcejorp.planets.*;
 
 public class TcejorpPlanets {
 	public static Planet
-  serril,
+        //serril,
 	deca;
 
 	public void load() {
@@ -31,7 +31,7 @@ public class TcejorpPlanets {
 				Color.valueOf("46FFFF")
 			);
 		}};
-    
+    /*
     serril = makeAsteroid("serril", deca, Blocks.stoneWall,TcejorpBlocks.afinumWall, Blocks.iceWall, 0.5f, 12, 2f, gen -> {
         gen.iceChance = 0.4f;
         gen.afinumChance = 0.5f;
@@ -79,3 +79,4 @@ public class TcejorpPlanets {
     }
 
 }
+*/

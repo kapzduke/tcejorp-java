@@ -15,12 +15,12 @@ public class TcejorpEnvBlocks {
 
 		//unnamed planet 1
 		turquosia = new Floor("turquosia") {{
-			variants = 4
+			variants = 4;
 		        attributes.set(Attribute.water, -0.1f);
 			mapColor = Color.valueOf("34827C");
 		}};
 		afinium = new Floor("afinium") {{
-			variants = 4
+			variants = 4;
 			mapColor = Color.valueOf("5490FF");
 		}};
 		turquosiaCraters = new Floor("turquosia-crater") {{

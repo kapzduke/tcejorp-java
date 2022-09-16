@@ -75,8 +75,7 @@ public class TcejorpPlanets {
 
                 return new MultiMesh(meshes.toArray(GenericMesh.class));
             };
-        }};
+        }};*/
     }
 
 }
-*/

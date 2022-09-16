@@ -18,7 +18,7 @@ public class TcejorpPlanets {
 			bloom = true;
 			accessible = false;
 			orbitRadius = 1000f;
-      drawOrbit = false
+			drawOrbit = false;
 			meshLoader = () -> new SunMesh(
 				this, 5,
 				5, 0.3, 1.7, 1.2, 1,

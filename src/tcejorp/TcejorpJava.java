@@ -15,5 +15,6 @@ public class TcejorpJava extends Mod{
     public void loadContent() {
         new TcejorpEnvBlocks().load();
         new TcejorpItems().load();
+        }
     }
 }

@@ -14,7 +14,7 @@ public class TcejorpJava extends Mod{
     @Override
     public void loadContent() {
         new TcejorpEnvBlocks().load();
-        new TcejorpItems().load()
+        new TcejorpItems().load();
     }
 
     //stolen from sh1p

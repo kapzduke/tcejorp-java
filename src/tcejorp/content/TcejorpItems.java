@@ -52,13 +52,13 @@ public class TcejorpItems {
       
         promethium = new Item("promethium", Color.valueOf("000000")) {{
             hardness = 6;
-            radioactivity = 1.3f
+            radioactivity = 1.3f;
             cost = 1.5f;
         }};
       
         barienPlating = new Item("barienPlating", Color.valueOf("000000")) {{
             cost = 2f;
-            healthScaling = 2f
+            healthScaling = 2f;
         }};
       
         lamoniItems.addAll(

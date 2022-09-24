@@ -16,27 +16,4 @@ public class TcejorpJava extends Mod{
         new TcejorpEnvBlocks().load();
         new TcejorpItems().load();
     }
-
-    //stolen from sh1p
-    public static NativeJavaPackage p = null;
-
-    @Override
-    public void init() {
-        super.init();
-        ImporterTopLevel scope = (ImporterTopLevel) Vars.mods.getScripts().scope;
-
-        Seq<String> packages = Seq.with(
-                "tcejorp-java",
-                "tcejorp-java.envblocks",
-                "tcejorp-java.items"
-        );
-
-        packages.each(name -> {
-            p = new NativeJavaPackage(name, Vars.mods.mainLoader());
-
-            p.setParentScope(scope);
-
-            scope.importPackage(p);
-        });
-    }
 }

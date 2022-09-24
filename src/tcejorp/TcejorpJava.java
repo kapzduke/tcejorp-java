@@ -3,7 +3,7 @@ package tcejorp;
 import arc.struct.Seq;
 import mindustry.Vars;
 import mindustry.mod.*;
-import tcejorp.content.TcejorpContent;
+import tcejorp.content;
 import rhino.ImporterTopLevel;
 import rhino.NativeJavaPackage;
 

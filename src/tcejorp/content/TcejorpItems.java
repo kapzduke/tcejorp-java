@@ -45,7 +45,7 @@ public class TcejorpItems {
             cost = 1.3f;
         }};
 
-        roentgenium = new Item("moscovium", Color.valueOf("90a94d")) {{
+        roentgenium = new Item("roentgenium", Color.valueOf("90a94d")) {{
             hardness = 5;
             cost = 1.3f;
         }};

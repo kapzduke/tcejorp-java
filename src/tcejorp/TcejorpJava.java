@@ -11,7 +11,7 @@ public class TcejorpJava extends Mod{
 
   @Override
   public void loadContent(){
-    TcejorpItems.load();
-    TcejorpEnvBlocks.load();
+    static TcejorpItems.load();
+    static TcejorpEnvBlocks.load();
   }
 }

@@ -11,7 +11,7 @@ public class TcejorpEnvBlocks {
 		turquosia, afinium, turquosiaCraters,
 		turquosiaWall, afiniumWall;
 
-	public void load() {
+	public static void load() {
 
 		//unnamed planet 1
 		turquosia = new Floor("turquosia") {{

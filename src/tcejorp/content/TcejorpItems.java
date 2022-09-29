@@ -58,7 +58,6 @@ public class TcejorpItems {
       
         barienPlating = new Item("barienPlating", Color.valueOf("000000")) {{
             cost = 2f;
-            healthScaling = 2f;
         }};
       
         lamoniItems.addAll(
